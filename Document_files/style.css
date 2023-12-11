@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    background-image:url("greenbackpic.jpeg");
+}
+.container{
+     color:black;
+     background:white;
+     min-height:100vh;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.userinputbox{
+    
+    border-color:gainsboro;
+    background-color:rgb(218, 224, 230);
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.task-tabs{
+    display:flex;
+    border-bottom:1px solid lightgray;
+    position:relative;
+}
+.tab1,.tab2,.tab3{
+   
+    padding:5px;
+    margin-top:50px;
+    margin-right:10px;
+}
+.task-area{
+    border:1px solid lightgray;
+}
+#under-line{
+    background:pink;
+    height:4px;
+    width:38px;
+    position:absolute;
+    top:80px;
+    padding:0px;
+}
+.task-box1{
+    display:flex;
+    justify-content:space-between;
+}

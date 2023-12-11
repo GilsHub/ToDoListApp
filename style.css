@@ -1,0 +1,145 @@
+body{
+    margin:0px;
+    background-image:url("greenbackpic.jpeg");
+}
+.main-title{
+    margin-bottom:15px;
+    position:relative;
+    top:20px;
+}
+.container{
+     color:black;
+     background:white;
+     min-height:100vh;
+     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.userinputbox{
+    
+    border-width:1px;
+    border-color:gray;
+    background-color:white;
+    border-radius:10px;
+    margin-bottom:20px;
+    position:relative;
+    top:30px;
+    font-weight:bold;
+    padding:4px;
+}
+.addbutton{
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+  
+    padding-bottom:3px;
+    margin-left:5px;
+    border-radius:10px;
+    border:1px solid black;
+    font-weight:bold;
+    background:white;
+    color:black;
+    font-size:19px;
+    position:relative;
+    top:30px;
+}
+.addbutton:hover{
+    background:black;
+    color:white;
+    transition:0.2s;
+}
+.task{
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius:8px;
+    background:white;
+    border-bottom:1px solid black;
+}
+.check-button{
+ background:rgb(143, 235, 143);
+ border:none;
+ color:white;
+ padding:10px;
+ border-radius:5px;
+ font-weight:bold;
+ margin-top:5px;
+ margin-bottom:5px;
+}
+.check-button:hover{
+color:rgb(143, 235, 143);
+background:rgb(15, 152, 15);
+transition:0.2s;
+}
+.delete-button{
+background:rgb(233, 127, 127);
+ border:none;
+ color:white;
+ padding:10px;
+ border-radius:5px;
+ font-weight:bold;
+ margin-top:5px;
+ margin-right:10px;
+}
+.delete-button:hover{
+ color:rgb(233, 127, 127);
+ background:pink;
+ transition:0.2s;
+}
+.task-contents{
+   font-weight:bold;
+   font-size:30px;
+   margin-left:20px;
+   position:relative;
+   top:3px;
+   color:black;
+   
+}
+
+.task-tabs{
+    display:flex;
+    border-bottom:1px solid lightgray;
+    position:relative;
+}
+.tab1,.tab2,.tab3{
+   
+    padding:5px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-top:50px;
+    margin-right:10px;
+    
+    font-weight:bold;
+    
+}
+.tab1:hover,.tab2:hover,.tab3:hover{
+    background:black;
+    color:white;
+    transition:0.2s;
+    
+}
+.task-area{
+
+    
+}
+/*#under-line{
+    background:rgb(236, 116, 116);
+    height:4px;
+    width:90px;
+    position:absolute;
+    top:80px;
+    padding:0px;
+}*/
+.task{
+    display:flex;
+    justify-content:space-between;
+}
+.task-done{
+    text-decoration:line-through;
+    font-weight:bold;
+    font-size:30px;
+    margin-left:20px;
+    position:relative;
+    top:3px;
+    
+}
+.task-tabs div{
+    cursor:pointer;
+}
