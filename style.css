@@ -4,8 +4,7 @@ body{
 }
 .main-title{
     margin-bottom:15px;
-    position:relative;
-    top:20px;
+   
 }
 .container{
      color:black;
@@ -20,8 +19,8 @@ body{
     background-color:white;
     border-radius:10px;
     margin-bottom:20px;
-    position:relative;
-    top:30px;
+    
+    
     font-weight:bold;
     padding:4px;
 }
@@ -38,8 +37,8 @@ body{
     background:white;
     color:black;
     font-size:19px;
-    position:relative;
-    top:30px;
+  
+   
 }
 .addbutton:hover{
     background:black;
